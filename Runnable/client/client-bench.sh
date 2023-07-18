@@ -1,0 +1,1 @@
+java --add-modules=jdk.incubator.vector -Djava.util.logging.config.file=logging.properties -Dorg.vanilladb.bench.config.file=vanillabench.properties -Dorg.vanilladb.core.config.file=vanilladb.properties -jar client.jar 2 2>> bench-log.txt
